@@ -1,0 +1,5 @@
+@import "bourbon/bourbon";
+
+@include font-face("pts-b", "../fonts/PTSansBold", normal, $file-formats: woff);
+@include font-face("pts-i", "../fonts/PTSansItalic", normal, $file-formats: woff);
+@include font-face("pts-r", "../fonts/PTSansRegular", normal, $file-formats: woff);
