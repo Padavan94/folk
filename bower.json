@@ -13,6 +13,7 @@
   "dependencies": {
     "normalize.css": "*",
     "jquery": "2.*",
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "masonry": "^4.0.0"
   }
 }

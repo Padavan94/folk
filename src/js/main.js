@@ -7,7 +7,6 @@
 //= ../../bower_components/magnific-popup/dist/jquery.magnific-popup.js
 
 
-
 /*
     Custom
  */
@@ -204,6 +203,18 @@ $(document).ready(function() {
 		setInterval(function(){that.remove()},300);
 	});
 
+	//
+	$('.grid').waitForImages(function() {
+		$('.grid').isotope({
+		  itemSelector: '.lookbook-page__gallery__item',
+		  percentPosition: true,
+		  masonry: {
+		    // use outer width of grid-sizer for columnWidth
+		    columnWidth: '.grid-sizer'
+		  }
+		})
+	})
+	
 
 
 

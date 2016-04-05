@@ -5,8 +5,8 @@
 	.header__info-single{margin-bottom: 4px;}
 	.header__link{margin-bottom: 17px;}
 	.header__cart, .header__search input{height: 48px;}
-	.collection__container{justify-content: space-around;}
-	.collection__item{margin-bottom: 30px;}
+	.collection__container{justify-content: center;}
+	.collection__item{margin: 30px;}
 	.footer__bottom__copy{width: 100%; text-align: center;margin-top: 35px;}
 	.footer__bottom__logo{text-align: center; width: 100%;}
 	.footer__bottom__info{flex-wrap: wrap;width: 100%; justify-content: space-around;}
@@ -18,7 +18,8 @@
 	.cart__table__body-col--price{font-size: 18px;}
 	.cart__table__body-col, .cart__table__header-col{padding: 9px 5px;}
 	.order__form__personal,.order__form__delivery-method, .order__form__order-checks{width: 300px;}
-
+	.lookbook-page__item{height: auto;}
+	.lookbook-page__gallery__item{height: 350px;}
 }
 
 @media only screen and (max-width : 992px) {
@@ -43,7 +44,7 @@
 	.order__form__personal,.order__form__delivery-method{width: 45%;}
 	.order__form__order-checks{width: 100%; margin-top: 30px;}
 	.cart__total--order{flex-direction: row;}
-
+	.lookbook-page__gallery__item{height: 255px;}
 
 
 }	
@@ -91,6 +92,7 @@
 	.lookbook-page__item__img{height: 250px; margin-bottom: 20px;}
 	.contacts__form__text-wrap{width: 100%;}
 	.contacts__info{margin-bottom: 40px;}
+	.lookbook-page__gallery__item{height: auto; width: 100%;}
 }
 
 
